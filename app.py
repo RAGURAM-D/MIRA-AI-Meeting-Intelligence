@@ -173,7 +173,7 @@ def report(job_id):
         "job_id": job_id,
         "report": job["report_data"],
         "pdf_url": f"/download/{job_id}",
-         "transcript_url": f"/transcript/{job_id}",
+        "transcript_url": f"/transcript/{job_id}",
         "audio_url": f"/audio/{job_id}"
     })
 
