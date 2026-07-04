@@ -174,7 +174,7 @@ def report(job_id):
         "report": job["report_data"],
         "pdf_url": f"/download/{job_id}",
          "transcript_url": f"/transcript/{job_id}",
-        "audio_url": f"/audio/{job_id}",
+        "audio_url": f"/audio/{job_id}"
     })
 
 
@@ -230,5 +230,5 @@ def index():
 
 
 if __name__ == "__main__":
-    print("Starting Flask server on http://127.0.0.1:000")
-    app.run(host="0.0.0.0",debug=False, port=5000, threaded=True)
+   print("Starting Flask server on http://0.0.0.0:5000")
+   app.run(host="0.0.0.0",debug=False, port=5000, threaded=True)
