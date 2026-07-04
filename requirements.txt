@@ -74,7 +74,7 @@ numba==0.66.0
 numpy==1.26.4
 omegaconf==2.3.1
 openai==2.44.0
-openai-whisper==20250625
+openai-whisper
 optuna==4.9.0
 orjson==3.11.9
 ormsgpack==1.12.2
