@@ -104,14 +104,14 @@ pytorch-metric-learning==2.9.0
 pytz==2026.2
 PyYAML==6.0.3
 regex==2026.6.28
-reportlab==5.0.0
+reportlab==4.2.2
 requests==2.34.2
 requests-toolbelt==1.0.0
 rich==15.0.0
 ruamel.yaml==0.18.17
 ruamel.yaml.clib==0.2.15
 scikit-learn==1.7.2
-scipy==1.15.3
+scipy==1.13.1
 semver==3.0.4
 sentencepiece==0.2.1
 shellingham==1.5.4
